@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" tools:showIn="@layout/message"
+    tools:context="com.example.administrator.work4.ContactsMessageActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名："
+        android:id="@+id/xm3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="50px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/xm4"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/xm3"
+        android:layout_toEndOf="@+id/xm3"
+        android:textSize="50px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单位："
+        android:id="@+id/dw3"
+        android:layout_marginTop="43dp"
+        android:textSize="50px"
+        android:layout_below="@+id/xm3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dw4"
+        android:layout_alignTop="@+id/dw3"
+        android:layout_centerHorizontal="true"
+        android:textSize="50px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电话："
+        android:id="@+id/dh3"
+        android:layout_marginTop="35dp"
+        android:textSize="50px"
+        android:layout_below="@+id/dw3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dh4"
+        android:layout_alignTop="@+id/dh3"
+        android:layout_toRightOf="@+id/xm4"
+        android:layout_toEndOf="@+id/xm4"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:textSize="50px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QQ："
+        android:id="@+id/qq3"
+        android:textSize="50px"
+        android:layout_below="@+id/dh3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/qq4"
+        android:layout_alignTop="@+id/qq3"
+        android:layout_toRightOf="@+id/xm4"
+        android:layout_toEndOf="@+id/xm4"
+        android:textSize="50px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地址："
+        android:id="@+id/dz3"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/qq3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="50px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dz4"
+        android:layout_alignTop="@+id/dz3"
+        android:layout_centerHorizontal="true"
+        android:textSize="50px" />
+
+</RelativeLayout>
